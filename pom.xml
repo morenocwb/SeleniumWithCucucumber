@@ -30,6 +30,8 @@
                     <suiteXmlFiles>
                         <suiteXmlFile>src/test/java/testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
+		    <testFailureIgnore>true</testFailureIgnore>
+    </configuration>
 				</configuration>
             </plugin>
             <plugin>
